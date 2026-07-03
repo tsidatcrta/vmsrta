@@ -1,0 +1,45 @@
+{
+  "app": "VMS-ARMY",
+  "configVersion": 1,
+  "savedAt": "2026-07-03T08:20:44.924Z",
+  "settings": {
+    "dbType": "Supabase",
+    "dbConfig": "https://rdgikfuxlnpvdcsloema.supabase.co",
+    "sheetId": "1_xY_SampleSheetID_ABC123XYZ",
+    "supabaseKey": "sb_publishable_jLJ4kaoRsBHm1zuUvwDr8g_clFJh5A5",
+    "lineOaToken": "N4HGGgWgVr555PDZeWmj6JQ9QXgiQuN1E+JzW93UDbgQWq1cKu9WbRVTHUJy19fRgbtzg9ZeLYD4urnOGMi7ndZ12o1jz9JV8VJozkioC6P+6JnRm09bTEs9kV4JlRRkhGginwRmxIOC/EA9lkz+XgdB04t89/1O/w1cDnyilFU=",
+    "lineTargetId": "",
+    "lineProxyUrl": "https://script.google.com/macros/s/AKfycbyH-k_KIRe_sZAwQ6MvQPCAMnpyDcp2w6565w-wxc46YQirRIA6qM-gTMYXliNQm-U/exec",
+    "googleCalId": "army.vms.calendar@gmail.com",
+    "approvalChain": [
+      {
+        "id": "step_boss",
+        "name": "หัวหน้างาน (ผบ.ร้อย)",
+        "enabled": true,
+        "role": "หัวหน้างาน",
+        "approverId": "USR002"
+      },
+      {
+        "id": "step_deputy",
+        "name": "รองผู้บังคับกองพัน (รอง ผบ.พัน)",
+        "enabled": true,
+        "role": "รองผู้อำนวยการ",
+        "approverId": "USR001"
+      },
+      {
+        "id": "step_director",
+        "name": "ผู้บังคับการกองพัน (ผบ.พัน)",
+        "enabled": true,
+        "role": "ผู้อำนวยการ",
+        "approverId": "USR003"
+      },
+      {
+        "id": "step_transport",
+        "name": "แผนกยานพาหนะ (นขส.)",
+        "enabled": true,
+        "role": "งานยานพาหนะ",
+        "approverId": "USR001"
+      }
+    ]
+  }
+}
